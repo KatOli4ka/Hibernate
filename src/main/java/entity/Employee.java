@@ -1,7 +1,6 @@
-package model;
+package entity;
+import javax.persistence.*;
 
-import org.hibernate.annotations.Entity;
-import org.hibernate.annotations.Table;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
@@ -9,21 +8,20 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Objects;
 @Entity
-@Table(name = "employee")
+@Table
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private long id;
-    @Column(name = "firstName")
+    @Column(name = "first_name", nullable = false)
     private String firstName;
-    @Column(name = "lastName")
+    @Column(name = "last_name", nullable = false)
     private String lastName;
-    @Column(name = "gender")
+    @Column(name = "gender", nullable = false)
     private String gender;
-    @Column(name = "age")
+    @Column(name = "age", nullable = false)
     private int age;
-    @Column(name = "city_id")
+    @Column(name = "city_id", nullable = false)
     private int cityId;
     public Employee() {
     }

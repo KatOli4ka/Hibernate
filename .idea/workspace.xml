@@ -4,21 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f33048f7-4f15-4707-b7fd-68521c0b0ddf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f33048f7-4f15-4707-b7fd-68521c0b0ddf" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hebirnate/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -57,6 +66,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,11 +86,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676385446951</updated>
-      <workItem from="1676385448197" duration="1040000" />
+      <workItem from="1676385448197" duration="13459000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1676386588407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676386588407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

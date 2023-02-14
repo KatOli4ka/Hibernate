@@ -1,9 +1,17 @@
-package model;
+package entity;
+import javax.persistence.*;
+
 
 import java.util.Objects;
+@Entity
+@Table
 
 public class City {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column (name = "city_id",nullable = false)
     private long cityId;
+    @Column (name = "city_name",nullable = false)
     private String cityName;
 
     public City(long cityId) {
@@ -12,6 +20,10 @@ public class City {
     public City(long cityId, String cityName) {
         this.cityId = cityId;
         this.cityName = cityName;
+    }
+
+    public City() {
+
     }
 
     public long getCityId() {

@@ -1,15 +1,13 @@
 package dao;
 
-import model.Employee;
+import entity.Employee;
 
-import java.sql.SQLException;
 import java.util.List;
 
 public interface EmployeeDao {
-    void add(Employee employee) throws SQLException;
+    Employee add(Employee employee);
     Employee readById(long id);
     List<Employee> findAll();
-    void updateEmployeeById(long id,String name);
-    void deleteById(long id);
-
+    void updateEmployeeById(Employee employee);
+    void deleteById(Employee employee);
 }
